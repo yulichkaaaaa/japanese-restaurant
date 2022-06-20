@@ -1,0 +1,74 @@
+.paymentSectionHeader{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.paymentContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 17% 0;
+}
+
+.paymentHeader{
+    display: block;
+    text-align: center;
+}
+
+.paymentTitle{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #fff;
+}
+
+.paymentBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.choose{
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    background: #8b8b8b;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.chooseItem{
+    width: 50%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    height: 100%;
+    font-size: 22px;
+    color: #fff;
+    transition: .2s
+}
+
+.chooseItem:hover{
+    background: #3d8a40;
+    color: #fff;
+}
+
+.chooseItem.isActive{
+    background: #4CAF50;
+    color: #fff;
+}
+
+.paymentSectionHeader{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    padding-bottom: 15px;
+}

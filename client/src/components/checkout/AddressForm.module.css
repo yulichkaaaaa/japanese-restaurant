@@ -1,0 +1,51 @@
+.deliveryAddress{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 50px;
+}
+
+.deliveryAddressHouse{
+    display: flex;
+    flex-direction: row;
+}
+
+.deliveryAddressField{
+    display: inline-flex;
+    margin: 10px 25px 10px  0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.deliveryAddressLabel{
+    font-size: 18px;
+    padding-right: 6px;
+}
+
+.deliveryAddressInputLong{
+    font-size: 18px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #8b8b8b;
+    margin-bottom: 15px;
+    padding-left: 3px;
+}
+
+.deliveryAddressInputShort{
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #8b8b8b;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.deliveryTime{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}

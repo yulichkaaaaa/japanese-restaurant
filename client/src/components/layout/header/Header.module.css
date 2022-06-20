@@ -16,3 +16,62 @@ header {
     display: flex;
     align-items: center;
 }
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+    color: #d6e9c6;
+    text-decoration: none;
+    display: block;
+    padding: 20px 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.link:hover{
+    color: #4CAF50;
+}
+
+.icon{
+    color: #d6e9c6;
+    display: block;
+    padding: 20px 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.icon-link{
+    color: #d6e9c6;
+    text-decoration: none;
+}
+
+.headerForm{
+    display: block;
+    margin-top: 17px;
+    margin-right: 15px;
+}
+
+.search{
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 7px;
+    width: 270px;
+    height: 30px;
+    background: #5e5e5e;
+    border-style: none;
+    color: #ffffff;
+    padding: 5px
+;
+}
+
+.search::placeholder{
+    color: #262626;
+}

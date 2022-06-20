@@ -1,0 +1,38 @@
+.promoCode{
+    margin-bottom: 30px;
+}
+
+.promoCodeField{
+    display: inline-flex;
+    flex-direction: row;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.promoCodeLabel{
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.promoCodeInput{
+    font-size: 18px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background: #8b8b8b;
+    margin-bottom: 18px;
+    padding-left: 5px;
+    color:#fff;
+}
+
+.paymentSectionHeader{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    padding-bottom: 15px;
+}

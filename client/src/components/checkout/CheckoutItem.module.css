@@ -1,0 +1,85 @@
+.paymentCartItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.cartItemInformation {
+  display: flex;
+  flex-direction: row;
+}
+
+.cartItemTitle {
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.cartItemName {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.cartItemDescription {
+  display: block;
+  color: #4caf50;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
+  width: 250px;
+}
+
+.cartItemImage {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.cartItemManage {
+  display: inline-flex;
+  flex-direction: row;
+  padding-right: 15px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.cartItemPrice {
+  display: inline-flex;
+  flex-direction: row;
+  margin-right: 15px;
+}
+
+.cartItemPriceValue {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+.cartItemPriceCurrency {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #4caf50;
+}
+
+.cartItemCount {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cartItemCountLabel {
+  display: block;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  padding: 0 15px;
+}

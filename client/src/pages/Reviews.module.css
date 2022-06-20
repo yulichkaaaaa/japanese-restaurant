@@ -1,0 +1,91 @@
+p, h4, h2{
+    margin: 0;
+    padding: 0;
+}
+
+input:active, input:focus{
+    outline: none;
+}
+
+body{
+    background-color: #5d5d5d;
+}
+
+.reviewStarsCount{
+    display: none;
+}
+
+.reviewsContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 10% 20px;
+}
+
+.reviewsHeader{
+    display: flex;
+    position: relative;
+}
+
+.reviewsTitle{
+    padding: 40px 0 20px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+
+.giveFeedbackButton{
+    display: inline-block;
+    background-color: #4CAF50;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0.65em 1.25em;
+    border-width: 0;
+    transition: 0.2s;
+    position: absolute;
+    font-size: 18px;
+    right: 20px;
+    top: 90px;
+}
+
+.giveFeedbackButton:hover{
+    background-color: #439648;
+    padding: 0.75em 1.40em;
+}
+
+.reviewsEmpty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+}
+
+.reviewsEmptyLabel{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.giveFeedback:hover{
+    cursor: pointer;
+    background: #439648;
+}
+
+.reviewContentContainer{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 20px 15px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.reviewsList{
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+}

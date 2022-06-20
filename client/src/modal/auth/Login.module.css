@@ -1,0 +1,166 @@
+h3, h4, ul, form, span, button, p{
+    margin: 0;
+    padding: 0;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+button:active,button:focus{
+    outline: none;
+}
+
+.login{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.login:target{
+    display: block;
+}
+
+.loginBody{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.loginContent{
+    background-color: #5d5d5d;
+    color: #fff;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.loginHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginTitle{
+    width: 100%;
+    display: block;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.loginClose{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding-right: 10px;
+    transition: 0.2s;
+}
+.loginClose:hover{
+    color: #439648;
+    cursor: pointer;
+}
+
+/*login form*/
+
+.loginFormContainer{
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 10px 80px;
+}
+
+.loginForm{
+    width: 100%;
+}
+
+.loginField{
+    width: 100%;
+}
+
+.loginFieldInput{
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #a2a2a2;
+    margin-bottom: 15px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.loginIncorrectFieldInput {
+    ont-size: 18px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #9c6262;
+    margin-bottom: 15px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.loginErrorLabel{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.loginFormSubmit{
+    width: 100%;
+    font-size: 18px;
+    background-color: #4CAF50;
+    border-radius: 7px;
+    color: #fff;
+    padding: 0.75em 1.25em;
+    border-width: 0;
+    transition: 0.2s;
+    margin-top: 30px;
+
+}
+
+.loginFormSubmit:hover{
+    background: #439648;
+    cursor: pointer;
+    border: none;
+}
+
+/*footer*/
+
+.loginFooter{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px 80px 30px;
+}
+
+.loginFooterText{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.registerPasswordMismatch{
+    display: none;
+}
+
+.switchLink{
+    text-decoration: none;
+    color: #4CAF50;
+    transition: 0.2s;
+}
+
+.switchLink:hover{
+    color: #3d8a40;
+}

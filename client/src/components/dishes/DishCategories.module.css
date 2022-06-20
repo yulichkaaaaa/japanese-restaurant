@@ -1,0 +1,36 @@
+.menuCategories{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.menuCategoriesItem{
+    border: none;
+    display: block;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.menuCategoriesButton{
+    cursor: pointer;
+    border-radius: 8px;
+    border: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    width: 100%;
+    background: #979797;
+    color: #fff;
+    padding: 8px 0 8px;
+    transition: 0.2s;
+}
+
+.menuCategoriesButton:hover{
+    background: #878787;
+}
+
+.menuCategoriesButton:active{
+    border-width: 0;
+    border-style: none;
+}

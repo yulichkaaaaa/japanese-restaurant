@@ -1,0 +1,56 @@
+.reviewsListItem{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 5px;
+    background: #a2a2a2;
+    border-radius: 12px;
+    color: #545454;
+    margin-bottom: 15px;
+}
+
+.reviewHeader{
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.reviewHeaderTitle{
+    display: block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 4px;
+    color: #545454;
+}
+
+.reviewRating{
+    color: #545454;
+}
+
+.reviewAuthor{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.reviewAuthorName{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 4px;
+}
+
+.reviewAuthorPhoto{
+    width: 130px;
+    border-radius: 6px;
+}
+
+.reviewContent{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #545454;
+    text-align: justify;
+}

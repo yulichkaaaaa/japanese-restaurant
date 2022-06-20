@@ -1,0 +1,134 @@
+.cartItemsList{
+    display: flex;
+    flex-direction: column;
+}
+
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.cartItemInformation{
+    display: flex;
+    flex-direction: row;
+}
+
+.cartItemTitle{
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.cartItemName{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.cartItemDescription{
+    display: block;
+    color: #4CAF50;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    width: 250px;
+}
+
+.cartItemImage{
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.cartItemManage{
+    display: inline-flex;
+    flex-direction: row;
+    padding-right: 15px;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.cartItemPrice{
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+.cartItemPriceValue{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.cartItemPriceCurrency{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #4CAF50;
+}
+
+.cartItemCount{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cartItemCountLabel{
+    display: block;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.cartItemCountUpdate{
+    background: #a2a2a2;
+    color: #fff;
+    width: 35px;
+    height: 58px;
+    border-radius: 12px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    transition: all .2s;
+}
+
+.cartItemCountUpdate:hover{
+    background: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cartItemCountUpdate:hover{
+    opacity: 0.8;
+}
+
+.plusMinusButton{
+    margin-top: 15px;
+    display: block;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.cartItemDelete{
+    display: block;
+    padding-left: 20px;
+}
+
+.cartItemDeleteButton{
+    color: #fff;
+    font-size: 24px;
+    transition: all .2s;
+}
+
+.cartItemDeleteButton:hover{
+    color: #4CAF50;
+}

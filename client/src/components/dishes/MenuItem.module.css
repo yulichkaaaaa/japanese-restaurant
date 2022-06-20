@@ -1,0 +1,85 @@
+.menuItem{
+    display: inline-flex;
+    margin-right: 30px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+}
+
+.menuItemPicture:hover{
+    cursor: pointer;
+}
+
+.menuItemTitle{
+    display: block;
+    margin: 20px 0 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
+
+.menuItemDescription{
+    display: block;
+    color: #4CAF50;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.menuItemBottom{
+    display: inline-flex;
+    justify-content: space-between;
+    justify-self: flex-end;
+    margin-top: auto;
+}
+
+.menuPrice{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 10px 0;
+}
+
+.menuItemPrice{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.menuItemPriceCurrency {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.menuPriceValueDiscount{
+    margin-left: 5px;
+}
+
+.menuItemButton{
+    background-color: #4CAF50;
+    border-radius: 25px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 0.75em 1.25em;
+    border: none;
+    letter-spacing: 0.04em;
+    transition: 0.2s;
+}
+
+.menuItemButton:hover{
+    cursor: pointer;
+    background: #439648;
+    padding: 0.75em 1.35em;
+}

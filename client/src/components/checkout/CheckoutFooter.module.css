@@ -1,0 +1,97 @@
+.commentOrder{
+    display: flex;
+    margin-top: 20px;
+}
+
+.commentOrderInput{
+    width: 100%;
+    resize: none;
+    background: #8b8b8b;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    outline: none;
+    min-height: 140px;
+}
+
+.commentOrderInput::placeholder{
+    color: #fff;
+}
+
+.paymentConfirm{
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.paymentErrorLabel{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    align-self: center;
+    padding-right: 20px;
+}
+
+.paymentConfirmButton{
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 0.75em 1.25em;
+    border-width: 0;
+    transition: 0.2s;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+.paymentConfirmButton:hover{
+    background-color: #3d8a40;
+    cursor: pointer;
+    border: none;
+}
+
+.promoCode{
+    margin-bottom: 30px;
+}
+
+.promoCodeField{
+    display: inline-flex;
+    flex-direction: row;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.promoCodeLabel{
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.promoCodeInput{
+    font-size: 18px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background: #8b8b8b;
+    margin-bottom: 18px;
+    padding-left: 5px;
+    color:#fff;
+}
+
+.paymentSectionHeader{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    padding-bottom: 15px;
+}

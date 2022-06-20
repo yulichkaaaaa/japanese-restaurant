@@ -1,0 +1,20 @@
+.menuItems{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.emptyDishesList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 350px;
+}
+
+.emptyDishesList{
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin: 100px 150px 0 0 ;
+}

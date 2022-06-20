@@ -1,0 +1,21 @@
+.paymentSectionHeader{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.paymentCart{
+    display: flex;
+    flex-direction: column;
+    background-color: #545454;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.paymentCartItems{
+    display: flex;
+    flex-direction: column;
+}

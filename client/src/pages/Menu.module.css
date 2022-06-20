@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: #5d5d5d;
+}
+
+h2 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menuContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 120px 5% 0;
+}
+
+.menuHeader{
+    display: flex;
+    justify-content: center;
+}
+.menuTitle{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #fff;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.menuContent{
+    display: flex;
+    margin-top: 50px;
+}
+
+.menuPanel{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
